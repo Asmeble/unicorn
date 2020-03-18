@@ -663,3 +663,4 @@ def debug():
     return "python-%s-c%u.%u-b%u.%u" % (
         all_archs, major, minor, uc.UC_API_MAJOR, uc.UC_API_MINOR
     )
+__package__="unicorn"
